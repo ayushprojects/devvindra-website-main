@@ -1,0 +1,186 @@
+@media (max-width: 820px) {
+  .desk-show,
+  .nav-bar {
+    display: none !important;
+  }
+  .mb-show {
+    display: block !important;
+  }
+  .home-page-footer-frame {
+    gap: 0;
+  }
+  .footer-colum {
+    width: 100% !important;
+    margin: 0 5%;
+    gap: 0;
+    border-bottom: 1px solid #e0e6e9;
+    padding: 12px 0;
+  }
+  .home-page-footer-quick-links {
+    gap: 0;
+  }
+  .home-page-footer-quick-links > p {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 8px !important;
+  }
+  .home-page-footer-Contact {
+    height: auto !important;
+  }
+  .visa-mb {
+    width: 280px;
+    height: 50px;
+  }
+  .home-page-footer-frame {
+    padding: 24px 0 0 0;
+  }
+  .footer-para {
+    font-size: 13px;
+    color: #656565;
+    line-height: 13px;
+    margin: 0;
+  }
+  .footer-bottom {
+    margin-bottom: 24px;
+  }
+  .mb-flex {
+    display: flex;
+  }
+  .term-con-bg-frmae {
+    background: url(../assets/T-C-mb-BG.svg) no-repeat center;
+    background-size: auto;
+    z-index: -1;
+  }
+
+  /* ---------------------------------product page responsive --------------------------------- */
+  /* product page responsive  */
+  /* product page responsive  */
+  /* product page responsive  */
+  /* product page responsive  */
+
+  /* book item css  */
+  .product-item-section > .container {
+    flex-direction: column;
+    gap: 0px !important;
+  }
+  #book-img {
+    width: 300px;
+    left: 33.98px;
+  }
+  .coloumn2 {
+    padding: 24px 24px 40px;
+  }
+  .price-cart {
+    flex-direction: column;
+  }
+  .col-heading {
+    font-size: 28.4302px !important;
+    line-height: 36px !important;
+  }
+  #blue-btn {
+    width: 327px !important;
+  }
+
+  /* ----------------------------faq ---------------  */
+
+  .accordion-item {
+    width: 100% !important;
+  }
+
+  /*------------- best sellers --- */
+  .best-sellers {
+    width: 100% !important;
+    background: none !important;
+    overflow: hidden;
+  }
+  .best-sellers-headings {
+    gap: 0px !important;
+  }
+  .best-sellers-headings > h1 {
+    font-size: 28.43px !important;
+    text-align: start;
+  }
+
+  /*--------------------- reason to buy ---------- */
+  .reasons > .container {
+    flex-direction: column !important;
+  }
+  .reason-coloumn {
+    display: flex;
+    flex-direction: row !important;
+  }
+  .reasons > .container > .reason-coloumn > .reason-text > h5 {
+    font-size: 15px !important;
+  }
+
+  /* ----------------home page responsive --------------- */
+
+  .home-page-header > .container {
+    flex-direction: column;
+  }
+
+  .home-page-header > .container > .content {
+    width: 100% !important;
+    top: 90%;
+    left: 50%;
+
+    padding: 24px;
+  }
+  .home-page-header > .container > .content > h1 {
+    font-size: 28.4302px;
+    line-height: 36px;
+  }
+  .home-page-header > .container > .content > .buttons {
+    flex-direction: column;
+  }
+  .home-page-header > .container > .content > .buttons > #btn-1 {
+    justify-content: space-between;
+  }
+
+  /* home page you can learn section  */
+
+  .home-you-can-learn > .container {
+    flex-direction: column;
+  }
+  .home-you-can-learn > .container > .content {
+    width: 100% !important;
+    top: 340%;
+    left: 50%;
+    gap: 40px;
+    padding: 24px;
+    height: 100%;
+  }
+  .home-you-can-learn > .container > .content > h2 {
+    font-size: 28.4302px;
+    line-height: 36px;
+  }
+  .home-you-can-learn > .container > .content > p {
+    font-size: 16px;
+  }
+  .home-you-can-learn > .container > .content > button {
+    width: 100%;
+  }
+
+  /* -------------need help responsive ----------------- */
+  .home-need-help > .container > .image {
+    top: 0;
+  }
+  #over-img {
+    bottom: 50%;
+  }
+  .home-need-help > .container > .image > .content {
+    bottom: 0%;
+  }
+  .home-need-help > .container > .image > .content > h1 {
+    font-size: 28.4302px !important;
+    line-height: 36px !important;
+  }
+  .home-need-help > .container > .image > .content > p {
+    width: 100% !important;
+  }
+
+
+  /*--------------------- learn more responsive ------------ */
+}
