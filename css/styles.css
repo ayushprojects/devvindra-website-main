@@ -138,7 +138,8 @@ ul li:hover ul.dropdown {
   gap: 24px;
 }
 .home-page-header > .container > .content > .buttons > #btn-1,
-.home-need-help > .container > .image > .content > button {
+.home-need-help > .container > .image > .content > button,
+.home-learn-about > .container > .image > .content > button {
   display: flex;
   padding: 12px 24px;
   gap: 8px;
@@ -322,6 +323,41 @@ ul li:hover ul.dropdown {
 }
 /*----------------------------------------- you can learn start here ------------------------------- */
 
+/* ---------------------------------------------------------resone to buy new css ----------------------------------------------- */
+.reasons {
+  background: #ebf3ff;
+
+  align-items: center;
+  justify-content: center;
+}
+.reasons > .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 82px;
+}
+.reasons > .container > .reason-coloumn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 17px;
+}
+.reasons > .container > .reason-coloumn > .reason-text > h5 {
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.reasons > .container > .reason-coloumn > .reason-text > p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+/*----------------------------------------------------- reason-to-by ends here  --------------------------*/
 /*------------------------------------------- home page need help section ------------------------------------- */
 
 .home-need-help > .container > .image {
@@ -379,185 +415,59 @@ ul li:hover ul.dropdown {
 }
 /*------------------------------------------- home page need help section ------------------------------------- */
 
-/* learn more start here  */
+/*------------------------------ learn about our many experience in development section ----------------------- */
 
-.learn-more .learn-more-content-list {
-  left: 1097px;
-  top: 176px;
-}
-
-.learn-more-content {
+.home-learn-about > .container > .image {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  padding: 0;
-  gap: 24px;
-  position: absolute;
-  top: 23%;
-  left: 55%;
-}
-
-.learn-more-content h2 {
-  width: 520px;
-  font-family: "Orbitron";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 38px;
-  line-height: 48px;
-  text-transform: capitalize;
-  color: #3c3c3c;
-}
-
-.learn-more-content-list {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-  font-family: "Roboto";
-  font-size: 18px;
-  font-weight: 400;
-  color: #3c3c3c;
-}
-
-.learn-more-content-list img {
-  width: 18px;
-  height: 17px;
-}
-
-/* you can learn ends here  */
-
-/* ---------------------------------------------------------resone to buy new css ----------------------------------------------- */
-.reasons {
-  background: #ebf3ff;
-
-  align-items: center;
   justify-content: center;
-}
-.reasons > .container {
-  display: flex;
   align-items: center;
-  justify-content: center;
-  gap: 82px;
-}
-.reasons > .container > .reason-coloumn {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 17px;
-}
-.reasons > .container > .reason-coloumn > .reason-text > h5 {
-  font-family: "Orbitron";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 25px;
-}
-
-.reasons > .container > .reason-coloumn > .reason-text > p {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-}
-
-/*----------------------------------------------------- reason-to-by ends here  --------------------------*/
-
-/* need help section starts here  */
-
-.get-personal-expert {
   position: relative;
-  padding: 100px 0px 0px;
 }
-
-.overlap-img {
+#overlap-img {
   position: absolute;
   left: 50%;
-  top: 50%;
-  transform: translate(-50%, -100%);
 }
-
-.get-personal-expert-content {
-  width: 100%;
-  margin: 0px auto;
-  text-align: center;
-  padding: 24px 0px;
-  transform: translate(0%, -110%);
-}
-
-.get-personal-expert-content h1 {
-  font-family: "Orbitron";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 60px;
-  line-height: 75px;
-  text-align: center;
-  letter-spacing: 0.04em;
-  text-transform: capitalize;
-}
-
-.get-personal-expert-content p {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 160%;
-  text-align: center;
-  padding: 24px;
-  width: 50%;
-  margin: 0 auto;
-}
-
-/* need help section ends here  */
-
-/* about us starts here  */
-
-.home-about-us {
-  position: relative;
-}
-
-.home-about-us img {
-  position: relative;
-}
-
-#home-about-us-img {
-  left: 46%;
-  top: 10%;
+.home-learn-about > .container > .image > .content {
   position: absolute;
-}
-
-.home-about-us-content {
+  left: 0%;
+  bottom: 30%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  padding: 0px;
+  justify-content: start;
+  align-items: center;
+  text-align: start;
   gap: 24px;
-  position: absolute;
-  left: 18%;
-  top: 25%;
+  width: 50%;
 }
-
-.home-about-us-content h2 {
+.home-learn-about > .container > .image > .content > h2 {
   font-family: "Orbitron";
   font-style: normal;
   font-weight: 700;
   font-size: 37.8975px;
   line-height: 48px;
   text-transform: capitalize;
+
+  /* Neutral/800 */
+
   color: #3c3c3c;
-  width: 50%;
+  width: 476px;
 }
 
-.home-about-us-content p {
+.home-learn-about > .container > .image > .content > p {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 160%;
+  /* or 26px */
+
+  /* Neutral/800 */
+
   color: #3c3c3c;
-  width: 52%;
 }
 
-/* about us ends here  */
+/*------------------------------ learn about our many experience in development section ----------------------- */
 
 /* ---------------------------------- footer start here ---------------------------------- */
 
